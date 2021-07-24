@@ -1,11 +1,11 @@
 {% extends "main/index.html" %}
 
 {% block content %}
+    <br>
   <div class="conatiner font-monospace">
       {% for hl,des,img in List %}
-      <span class="border border-dark">
       <div class="d-flex flex-row bd-highlight mb-3">
-        <img class="img-thumbnail" src="{{ img }}" alt="image">
+        <img style="width: 50%; height: auto;" class="img-thumbnail" src="{{ img }}" alt="image">
         <div class="position-relative">
             <div class="badge bg-dark mb-2"><h1>Headline -</h1></div>
             <div class="position top-50 start-0 "><h2>{{ hl }}{{ value|linebreaks }}</h2> </div>

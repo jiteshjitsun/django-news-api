@@ -5,7 +5,7 @@ from newsapi.newsapi_client import NewsApiClient
 
 def index(request):
     newsApi = NewsApiClient(api_key = "0a86e664118a4b95afd01a53604a43c2")
-    headLines = newsApi.get_top_headlines(sources ='bbc-news')
+    headLines = newsApi.get_top_headlines(sources ='engadget')
     articles = headLines['articles']
     desc = []
     news = []
