@@ -17,3 +17,5 @@ I am using newsapi.org for api token
  3. python manage.py runserver
  
  The server will start at http://127.0.0.1:8000/ 
+ ![ezgif com-gif-maker](https://user-images.githubusercontent.com/62092896/127172962-73572404-c86b-411c-b425-f10d49ce0122.gif)
+
